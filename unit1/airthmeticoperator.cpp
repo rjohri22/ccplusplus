@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -6,19 +7,19 @@ int main()
     int b = 3;
 
     // + adds two numbers
-    printf("Addition = %d\n", a + b);
+    cout << "Addition = " << a + b << endl;
 
     // - subtracts the second number from the first
-    printf("Subtraction = %d\n", a - b);
+    cout << "Subtraction = " << a - b << endl;
 
     // * multiplies two numbers
-    printf("Multiplication = %d\n", a * b);
+    cout << "Multiplication = " << a * b << endl;
 
     // / performs integer division because a and b are integers
-    printf("Division = %d\n", a / b);
+    cout << "Division = " << a / b << endl;
 
     // % gives the remainder after division
-    printf("Remainder = %d\n", a % b);
+    cout << "Remainder = " << a % b << endl;
 
     return 0;
 }

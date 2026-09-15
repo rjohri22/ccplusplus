@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -6,22 +7,22 @@ int main()
     int b = 20;
 
     // Check whether a is greater than b
-    printf("a > b = %d\n", a > b);
+    cout << "a > b = " << (a > b) << endl;
 
     // Check whether a is less than b
-    printf("a < b = %d\n", a < b);
+    cout << "a < b = " << (a < b) << endl;
 
     // Check whether a and b are equal
-    printf("a == b = %d\n", a == b);
+    cout << "a == b = " << (a == b) << endl;
 
     // Check whether a and b are different
-    printf("a != b = %d\n", a != b);
+    cout << "a != b = " << (a != b) << endl;
 
     // Check whether a is greater than or equal to b
-    printf("a >= b = %d\n", a >= b);
+    cout << "a >= b = " << (a >= b) << endl;
 
     // Check whether a is less than or equal to b
-    printf("a <= b = %d\n", a <= b);
+    cout << "a <= b = " << (a <= b) << endl;
 
     return 0;
 }

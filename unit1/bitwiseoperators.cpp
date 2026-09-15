@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -7,23 +8,23 @@ int main()
 
     // Bitwise AND
     // 0101 & 0011 = 0001
-    printf("a & b = %d\n", a & b);
+    cout << "a & b = " << (a & b) << endl;
 
     // Bitwise OR
     // 0101 | 0011 = 0111
-    printf("a | b = %d\n", a | b);
+    cout << "a | b = " << (a | b) << endl;
 
     // Bitwise XOR
     // 0101 ^ 0011 = 0110
-    printf("a ^ b = %d\n", a ^ b);
+    cout << "a ^ b = " << (a ^ b) << endl;
 
     // Left shift
     // 0101 << 1 = 1010
-    printf("a << 1 = %d\n", a << 1);
+    cout << "a << 1 = " << (a << 1) << endl;
 
     // Right shift
     // 0101 >> 1 = 0010
-    printf("a >> 1 = %d\n", a >> 1);
+    cout << "a >> 1 = " << (a >> 1) << endl;
 
     return 0;
 }

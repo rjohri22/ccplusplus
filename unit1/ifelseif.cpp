@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -7,25 +8,25 @@ int main()
     // Check the marks and determine the grade
     if (marks >= 90)
     {
-        printf("Grade A+\n");
+        cout << "Grade A+" << endl;
     }
     else if (marks >= 75)
     {
         // This condition is true because marks = 75
-        printf("Grade A\n");
+        cout << "Grade A" << endl;
     }
     else if (marks >= 60)
     {
-        printf("Grade B\n");
+        cout << "Grade B" << endl;
     }
     else if (marks >= 50)
     {
-        printf("Grade C\n");
+        cout << "Grade C" << endl;
     }
     else
     {
         // Executed when all above conditions are false
-        printf("Fail\n");
+        cout << "Fail" << endl;
     }
 
     return 0;

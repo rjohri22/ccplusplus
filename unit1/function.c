@@ -7,6 +7,7 @@ void displayMessage()
 {
     // This function displays a message
     printf("Hello Students!");
+ 
 }
 
 // The main() function is the starting point of program execution

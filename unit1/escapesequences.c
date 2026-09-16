@@ -10,7 +10,9 @@ int main()
     printf("Name: Rohit\n");
 
     // \t inserts a tab space between the two words.
-    printf("Age:\t25\n");
+    printf("Age:\t\"25\"\n");
+
+        printf("Age:\t\\25\\\n");
 
     printf("Course:\tC Programming\n");
 
